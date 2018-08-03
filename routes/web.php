@@ -17,4 +17,19 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('about', [
+    'as' => 'about_path',
+    'uses' => 'HomeController@getAboutPage'
+]);
+Route::get('news', [
+    'as' => 'news_path',
+    'uses' => 'HomeController@getNewsPage'
+]);
+Route::get('contact', [
+    'as' => 'contact_path',
+    'uses' => 'HomeController@getContactPage'
+]);
+Route::get('cotation', [
+    'as' => 'cotation_path',
+    'uses' => 'HomeController@getCotationPage'
+]);

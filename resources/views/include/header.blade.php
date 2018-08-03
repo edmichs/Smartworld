@@ -35,17 +35,17 @@
                         </div>
                         <div id="navbar-collapse-1" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="home.html">Home</a></li>
-                                <li><a href="about.html">A propos</a></li>
+                                <li class="active"><a href="{{url('/')}}">Home</a></li>
+                                <li><a href="{{route('about_path')}}">A propos</a></li>
                                 <li class="dropdown"><a href="services-1.html">Services</a>
                                     <ul role="menu" class="dropdown-menu">
                                         <li><a href="services-1.html">Services 1</a></li>
                                         <li><a href="services-2.html">Services 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="blog-main.html">Actualit&eacute;s</a></li>
-                                <li><a href="contact.html">Demander une cotation</a></li>
-                                <li><a href="contact.html">Contactez nous</a></li>
+                                <li><a href="{{route('news_path')}}">Actualit&eacute;s</a></li>
+                                <li><a href="{{route('cotation_path')}}">Demander une cotation</a></li>
+                                <li><a href="{{route('contact_path')}}">Contactez nous</a></li>
                             </ul>
                         </div>
                     </nav>

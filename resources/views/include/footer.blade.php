@@ -10,15 +10,15 @@
 
                 <div class="section-subscribe clearfix">
                     <div class="subscribe__inner">
-                        <h2 class="subscribe__title">register for newsletter</h2>
+                        <h2 class="subscribe__title">Enregistrez vous pour les newsletter</h2>
 
-                        <div class="subscribe__info">get latest company news</div>
+                        <div class="subscribe__info">Avoir les derniere actualit&eacute;es sur SmartSolutions</div>
                     </div>
                     <form class="form-subscribe" method="post">
                         <input class="form-subscribe__input form-control" type="text"
                                placeholder="enter your email address" required>
                         <button class="form-subscribe__btn btn btn_mod-c btn-sm btn-effect"><span
-                                    class="btn__inner">Subscribe</span></button>
+                                    class="btn__inner">Soumettre</span></button>
                     </form>
                     <div class="subscribe__decor decor-4"><i
                                 class="subscribe__icon icon flaticon-envelope53"></i></div>
@@ -33,7 +33,7 @@
                                 <div class="col-lg-5 col-md-3">
                                     <div class="footer__section">
                                         <a class="footer__logo" href="home-1.html"><img
-                                                    src="/img/logo_mod-b.png" alt="Logo"></a>
+                                                    src="/img/logo_smart_world_1.jpg" alt="Logo"></a>
 
                                         <div class="footer__info">
                                             <p>Tempor incididunt ut labore dolore magna aliqua sed ipsum envenia
@@ -64,37 +64,28 @@
 
                                 <div class="col-lg-2 col-md-3">
                                     <section class="footer__section">
-                                        <h3 class="footer__title">services offered</h3>
+                                        <h3 class="footer__title">services offert</h3>
 
                                         <div class="decor-2 decor-2_mod-b decor-2_mod_white"></div>
                                         <ul class="footer-list list-unstyled">
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="services-1.html">Sea
-                                                    Freight</a>
+                                                <a class="footer-list__link" href="services-1.html">E-MARKETING & accompagnement technique</a>
                                             </li>
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="services-1.html">Road
-                                                    Transport</a>
+                                                <a class="footer-list__link" href="services-1.html">Notifications SMS</a>
                                             </li>
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="services-1.html">Air
-                                                    Freight</a>
+                                                <a class="footer-list__link" href="services-1.html">Site Web (vitrine&e-commerce) avec service en ligne </a>
                                             </li>
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="services-1.html">Railway
-                                                    Logistics</a>
+                                                <a class="footer-list__link" href="services-1.html">Pages dynamiques et professionnelles sur les reseaux sociaux </a>
                                             </li>
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="services-1.html">Packaging &
-                                                    Storage</a>
+                                                <a class="footer-list__link" href="services-1.html">Controle et suivi de vos activit&eacute; depuis votre t&eacute;l&eacute;phone en temps r&eacute;el</a>
                                             </li>
                                             <li class="footer-list__item">
                                                 <a class="footer-list__link"
-                                                   href="services-1.html">Warehousing</a>
-                                            </li>
-                                            <li class="footer-list__item">
-                                                <a class="footer-list__link" href="services-1.html">Door-2-Door
-                                                    Delivery</a>
+                                                   href="services-1.html">Conception de Cartes de viste professionnelles plus adapt&eacute; a votre transformation digitale</a>
                                             </li>
                                         </ul>
                                     </section>
@@ -103,26 +94,28 @@
 
                                 <div class="col-lg-2 col-md-3">
                                     <section class="footer__section">
-                                        <h3 class="footer__title">Quick links</h3>
+                                        <h3 class="footer__title">Naviguer rapidement</h3>
 
                                         <div class="decor-2 decor-2_mod-b decor-2_mod_white"></div>
                                         <ul class="footer-list list-unstyled">
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="home.html">Home Page</a>
+                                                <a class="footer-list__link" href="{{url('/')}}">Acceuil</a>
                                             </li>
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="home.html">Request a Free
-                                                    Quote</a>
+                                                <a class="footer-list__link" href="{{route('cotation_path')}}">Demander gratuitement une cotation
+                                                    </a>
                                             </li>
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="about.html">About the
-                                                    Company</a>
+                                                <a class="footer-list__link" href="{{route('about_path')}}">A propos de nous</a>
                                             </li>
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="home.html">Track Item(s)</a>
+                                                <a class="footer-list__link" href="{{route('news_path')}}">Actualit&eacute;s</a>
                                             </li>
                                             <li class="footer-list__item">
-                                                <a class="footer-list__link" href="home.html">Customer Care</a>
+                                                <a class="footer-list__link" href="{{route('contact_path')}}">Contact</a>
+                                            </li>
+                                            <li class="footer-list__item">
+                                                <a class="footer-list__link" href="home.html">Services</a>
                                             </li>
                                         </ul>
                                     </section>
@@ -136,24 +129,15 @@
                                         <div class="decor-2 decor-2_mod-b decor-2_mod_white"></div>
                                         <div class="footer-contact">
                                             <div class="footer-contact__inner">
-                                                <div class="footer-contact__title">24/7 Express Logistics</div>
-                                                <div class="footer-contact__info">54 NewHill Station Ave CA,
-                                                    Newyork <br>33102 US
+                                                <div class="footer-contact__title">SMARTWORLD SARL</div>
+                                                <div class="footer-contact__info">BP: 8180 Douala sis Kotto Bloc <br>Cameroun
                                                 </div>
-                                                <div class="footer-contact__info">Phone: (007) 123 456 7890
+                                                <div class="footer-contact__info">Telephone: (237) 699 651 807
                                                 </div>
                                                 <div class="footer-contact__info">Email: <a
-                                                            href="mailto:inquiry@domain.com">inquiry@domain
-                                                        .com</a></div>
-                                                <select class="footer-contact__select selectpicker">
-                                                    <option>Select a branch</option>
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                </select>
+                                                            href="mailto:silvere@smartsms.com">silvere@smartsms.com
+                                                        </a></div>
 
-                                                <div class="footer-contact__note">You can also view our other
-                                                    branches address information by selecting branch above.
-                                                </div>
                                             </div>
                                         </div>
                                         <!-- end footer-contact -->
@@ -169,15 +153,14 @@
 
 
                     <div class="copyright clearfix">
-                        <div class="copyright__inner">© 2016 <a class="copyright__link" href="templines.com">24/7
-                                Express Logistics Services</a> All rights reserved.
+                        <div class="copyright__inner">&copy; 2018 <a class="copyright__link" href="templines.com">SMARTWORLD</a> All rights reserved.
                         </div>
                         <ul class="copyright-list list-inline">
                             <li class="copyright-list__item">
-                                <a class="copyright-list__link" href="home.html">Terms of Use</a>
+                                <a class="copyright-list__link" href="home.html">Conditions d&apos;utilisation</a>
                             </li>
                             <li class="copyright-list__item">
-                                <a class="copyright-list__link" href="home.html">Privacy Policy</a>
+                                <a class="copyright-list__link" href="home.html">Politique de confidentialit&eacute;</a>
                             </li>
                         </ul>
                     </div>
