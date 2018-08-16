@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
+@section('css')
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'SMARTWORLD') }}</title>
-
-    <link href="favicon.png" type="image/x-icon" rel="shortcut icon">
-    <link href="/css/master.css" rel="stylesheet">
-
-    <script src="/plugins/jquery/jquery-1.11.3.min.js"></script>
-    <script src="/js/modernizr.custom.js"></script>
-</head>
-
-
-<body>
+@endsection
+@section('content')
 
 <!-- Loader -->
 <div id="page-preloader"><span class="spinner"></span></div>
@@ -393,9 +377,9 @@
                          data-stop-on-hover="true">
 
                         <div class="reviews">
-                            <div class="reviews__text">La solution SMARTSOLUTIONS a été conçue pour tout type d’entreprises (de toute taille),
-                                d’organisations ou d’institutions, et dimensionnée en fonctions de leurs objectifs. Cette solution vient résoudre
-                                les principaux problèmes régulièrement rencontrés dans les entreprises. Voici les principaux buts de la solution
+                            <div class="reviews__text">La solution SMARTSOLUTIONS a ï¿½tï¿½ conï¿½ue pour tout type dï¿½entreprises (de toute taille),
+                                dï¿½organisations ou dï¿½institutions, et dimensionnï¿½e en fonctions de leurs objectifs. Cette solution vient rï¿½soudre
+                                les principaux problï¿½mes rï¿½guliï¿½rement rencontrï¿½s dans les entreprises. Voici les principaux buts de la solution
                                 SMARTSOLUTIONS
                             </div>
                             <div class="reviews__author">
@@ -406,10 +390,10 @@
                         </div>
 
                         <div class="reviews">
-                            <div class="reviews__text">La solution SMARTSOLUTIONS est repartie en plusieurs packages afin de donner la possibilité à tout types
-                                d’entreprises de différentes tailles, de bénéficier des avantages offerts par la solution.  Ces packs étant structurées de
-                                la même façon, c’est à dire intégrant tous les 5 sous produits constituant la solution SMARTSOLUTIONS,
-                                mais avec des dimensionnements différents
+                            <div class="reviews__text">La solution SMARTSOLUTIONS est repartie en plusieurs packages afin de donner la possibilitï¿½ ï¿½ tout types
+                                dï¿½entreprises de diffï¿½rentes tailles, de bï¿½nï¿½ficier des avantages offerts par la solution.  Ces packs ï¿½tant structurï¿½es de
+                                la mï¿½me faï¿½on, cï¿½est ï¿½ dire intï¿½grant tous les 5 sous produits constituant la solution SMARTSOLUTIONS,
+                                mais avec des dimensionnements diffï¿½rents
                             </div>
                             <div class="reviews__author">
                                 <span class="reviews__author-title">SMARTSOLUTIONS</span>
@@ -740,11 +724,11 @@
                                                 <span class="reviews-list__company">CEO Trans globOl LTD.</span>
                                             </cite>
                                         </header>
-                                        <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor
+                                        <p>ï¿½ Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor
                                             incididunt ut labore etu dolore magna aliqua enim veniam quis nostrud
                                             exercitate ullamco laboris nisi aliquip exea commodo consequat duis aute
                                             dolor reprehenderit in lorem ipsum dolor sit ametas consectetur adipisicing
-                                            elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+                                            elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ï¿½</p>
                                     </blockquote>
                                 </div>
                             </div>
@@ -762,11 +746,11 @@
                                                 <span class="reviews-list__company">CEO Trans globOl LTD.</span>
                                             </cite>
                                         </header>
-                                        <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor
+                                        <p>ï¿½ Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor
                                             incididunt ut labore etu dolore magna aliqua enim veniam quis nostrud
                                             exercitate ullamco laboris nisi aliquip exea commodo consequat duis aute
                                             dolor reprehenderit in lorem ipsum dolor sit ametas consectetur adipisicing
-                                            elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+                                            elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ï¿½</p>
                                     </blockquote>
                                 </div>
                             </div>
@@ -851,40 +835,10 @@
 
 </div>
 <!-- end layout-theme -->
+@endsection
+@section('js')
+
+@endsection
 
 
-<!-- SCRIPTS MAIN -->
-
-<script src="/js/jquery-migrate-1.2.1.js"></script>
-<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="/js/waypoints.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="/js/modernizr.custom.js"></script>
-<script src="/js/cssua.min.js"></script>
-
-
-<!--SCRIPTS THEME-->
-
-<!-- Home slider -->
-<script src="/plugins/slider-pro/dist/js/jquery.sliderPro.js"></script>
-<!-- Sliders -->
-<script src="/plugins/owl-carousel/owl.carousel.min.js"></script>
-
-<script src="/plugins/flexslider/jquery.flexslider.js"></script>
-<!-- Modal -->
-<script src="/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
-<!-- Select customization -->
-<script src="/plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
-<!-- Chart -->
-<script src="/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-<!-- Animation -->
-<script src="/plugins/scrollreveal/dist/scrollreveal.min.js"></script>
-<!-- Menu for android-->
-<script src="/js/doubletaptogo.js"></script>
-
-<!-- Custom -->
-<script src="/js/custom.js"></script>
-
-</body>
-</html>
 
